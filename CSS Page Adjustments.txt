@@ -1,0 +1,303 @@
+A page which specify a black border for table and if hover on it, page should change it's colour.
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="jala_PA001.css" />
+
+    <table>
+      <!--these are the table specifications-->
+      <tr style="--rowCount: 0px">
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+      </tr>
+      <tr style="--rowCount: -1px">
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+      </tr>
+      <tr style="--rowCount: -2px">
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+      </tr>
+      <tr style="--rowCount: -3px">
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+
+Apply different visibility by an element (visibility: hidden, visible, collapse) and use different types of display for an element (display: none, inline, block, contents, list-item)
+<html>
+  <head>
+    <style>
+      h2.a {
+        /*here is the code for making an element visible of hidden as you can see*/
+        visibility: visible;
+      }
+
+      h2.b {
+        visibility: hidden;
+      }
+      tr.collapse {
+        visibility: collapse;
+      }
+      table,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Applying different visibilty options</h1>
+
+    <h2 class="a">This heading is visible</h2>
+
+    <h2 class="b">This heading is hidden</h2>
+
+    <p>hidden heading still takes up space on the page</p>
+    <table>
+      <tr>
+        <td>K</td>
+        <td>Rahul</td>
+      </tr>
+      <tr class="collapse">
+        <td>Rahul</td>
+        <td>K</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+
+A long page which should have two links "click to go to bottom of page" and "click to
+go to top of page" . Also set their scroll-behavior to scroll smoothly.
+per. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+
+      <h2 id="two">Section Two</h2>
+
+      <p>
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+        libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+        Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
+        pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare
+        sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+        ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in
+        turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus
+        faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+        Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+        facilisis luctus, metus
+      </p>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+
+      <h2 id="three">Section Three</h2>
+
+      <p>
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+        libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+        Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
+        pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare
+        sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+        ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in
+        turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus
+        faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+        Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+        facilisis luctus, metus
+      </p>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+
+      <p>
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+        libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+        Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
+        pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare
+        sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros
+        ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in
+        turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus
+        faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+        Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+        facilisis luctus, metus
+      </p>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+        erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+        sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+        facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+        neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+        volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+        luctus, metus
+      </p>
+      <p><a href="#top">Go To Top</a></p>
+      <!--this is the link for going to top of the page -->
+    </div>
+  </body>
+</html>
+
+
+
+
+Add padding and margin with different size and understand the difference between them.
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="jala_PA004.css" />
+
+  <body>
+    <div id="div-0">content (padding: 20px)</div>
+    <!--this is specifying the padding dimensions-->
+    <br />
+    <div id="div-1">content (padding-top: 20px)</div>
+    <br />
+    <div class="container">
+      <div class="child" id="div-2">(margin: 20px 40px 60px;)</div>
+      <!-- this is specifying the margin parameters-->
+    </div>
+    <br />
+
+    <div class="container">
+      <div class="child" id="div-3">(margin:)</div>
+    </div>
+    <br />
+  </body>
+</html>
+
+
+
+
+A page with multiple background images for an webpage or element and define their adjustable sizes.
+<html>
+  <head>
+    <style>
+      #example1 {
+        /*here we attach the 2 images that are to be used as backgrounds*/
+        background-image: url(http://static.demilked.com/wp-content/uploads/2018/03/5aaa1cb8ecce7-funny-weird-wtf-stock-photos-54-5a3bb0a19c729__700.jpg),
+          url(https://www.pngkit.com/png/detail/174-1747550_rainbow-light-png-grass.png);
+        background-position: right bottom, left top;
+        background-size: 300px 500px;
+        background-repeat: no-repeat, repeat;
+        padding: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiple Image Backgrounds with different sizes</h1>
+
+    <div id="example1">
+      <h1>Lorem Ipsum Dolor</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat.
+      </p>
+      <p>
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+        suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+  </body>
+</html>

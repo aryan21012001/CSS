@@ -1,0 +1,64 @@
+Add CSS comments in your CSS block.
+e css to the html file -->
+  </head>
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+
+
+
+
+Create a page with different background-colour of a page and set an image as the background-image of a page (image should not scroll with the rest of the page and specify the size of a background image)
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_basics002.css" />
+  </head>
+  <body>
+    <h1>The background-image Property</h1>
+  </body>
+</html>
+
+
+
+
+Create a different page with the width, style and color of the 4 border-style(set different borders on each side with different patterns).
+<html>
+  <head>
+    <style>
+      h1 {
+        border-style: groove;
+        border-width: 7px;
+        border-color: blueviolet;
+      }
+
+      div {
+        border-style: groove;
+        border-width: 7px;
+        border-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A Heading with a groove border</h1>
+
+    <div>A div element with a groove border.</div>
+  </body>
+</html>
+
+
+
+
+Develop a page and set the height:(in pixels and %) and width:(in pixels and %) on elements.
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_basics004.css" />
+    <style></style>
+  </head>
+  <body>
+    <h2>Successfully set the height and width of elements in px and %</h2>
+
+    <div>This div element has a height of 200px and a width of 50%.</div>
+  </body>
+</html>

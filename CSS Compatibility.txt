@@ -1,0 +1,230 @@
+Create a table and apply table-layout as fixed and none
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_compatibility001.css" />
+  </head>
+  <body>
+    <h1>table-layout as fixed and none</h1>
+    <!---->
+
+    <h2>table-layout: fixed; width: 180px:</h2>
+    <table class="b">
+      <!--calling b table from css code-->
+      <tr>
+        <th>Lorem, ipsum.</th>
+        <th>Lorem, ipsum.</th>
+        <th>Lorem, ipsum.</th>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+      </tr>
+    </table>
+
+    <h2>table-layout: auto; width: 100%:</h2>
+    <table class="c">
+      <!--calling c table from css code-->
+      <tr>
+        <th>Lorem, ipsum.</th>
+        <th>Lorem, ipsum.</th>
+        <th>Lorem, ipsum.</th>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+        <td>Lorem, ipsum dolor.</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+
+Create a list and change its list-style-type
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_compatibility002.css" />
+  </head>
+  <body>
+    <h1>The list-style-type: ordered and unordered</h1>
+
+    <p>unordered lists:</p>
+
+    <ul class="a">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <ul class="b">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <p>ordered lists:</p>
+
+    <ol class="c">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+    </ol>
+
+    <ol class="d">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+    </ol>
+  </body>
+</html>
+
+
+
+
+Create a grid with of different types
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_compatibility003.css" />
+  </head>
+  <body>
+    <h1>Grid types</h1>
+
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <!--filling grid with numbers-->
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+    </div>
+  </body>
+</html>
+
+
+
+
+Create a hero image
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="jala_compatibility004.css" />
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>ASTON MARTIN</h1>
+        <p>F1 RACING TEAM</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+Write a program of view-port for grid, media queries, image and video.
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="jala_compatibility005.css" />
+  </head>
+  <body>
+    <div class="header">
+      <!--this is header part of the page-->
+      <h1>JALA TECH</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-3 menu">
+        <ul>
+          <li>JAVA</li>
+          <!--there are links to other pages-->
+          <li>JAVASCRIPT</li>
+          <li>SQL</li>
+          <li>FRONT END</li>
+        </ul>
+      </div>
+
+      <div class="col-6">
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eum
+          porro sint blanditiis nulla vero repellendus quaerat possimus
+          voluptate, quo itaque maiores ut in ipsa corrupti nobis amet ex cum
+          optio odit. Magnam expedita cum deserunt quos tenetur autem dolorum!
+        </p>
+        <img
+          src="https://thumbs.dreamstime.com/b/high-tech-technology-geometric-connection-system-background-digital-data-abstract-161592936.jpg"
+          width="460"
+          height="345"
+        /><!--this is the image source part-->
+      </div>
+      <video width="400" controls>
+        <source
+          src="https://www.w3schools.com/css/mov_bbb.mp4"
+          type="video/mp4"
+        />
+        <source src="mov_bbb.ogg" type="video/ogg" />
+        Your browser does not support HTML5 video.</video
+      ><!--this is the video source part -->
+
+      <div class="col-3 right">
+        <div class="aside">
+          <h2>UNLIMITED OPPORTUNITIES TO BUILD A RIGHT CAREER</h2>
+          <p>
+            We just don't focus to land you a job but strive to offer a
+            sustainable career.
+          </p>
+          <h2>FOR ALL EXPERIENCE PEOPLE</h2>
+          <p>
+            Yes, We help workers of all ages get a better-paying jobs, even if
+            they don't have higher education.
+          </p>
+          <h2>LIVING WITH A LACK OF JOB SECURITY?</h2>
+          <p>
+            Don't worry, In fact, this is an opportunity for you to see your
+            real potential.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <!--this is displayedat the bottom -->
+      <p>
+        Resize the browser window to see how the content respond to the
+        resizing.
+      </p>
+    </div>
+  </body>
+</html>

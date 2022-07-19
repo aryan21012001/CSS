@@ -1,0 +1,186 @@
+Apply CSS shadow effects like for image box and hover a cursor.
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_effects001.css" />
+  </head>
+  <body>
+    <div class="pic"></div>
+    <p style="font-size: 500%">
+      <!--specifying the font size right here-->
+      When hovering the picture's opacity changes and a neon green shadow is
+      added
+    </p>
+  </body>
+</html>
+
+
+
+
+Use CSS animations (name,duration,iteration-count & delay) and paginations(Hoverable,with and without spaces).
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="jala_effects002.css" />
+
+    <div class="box"></div>
+    <br />
+    <h2>Animations and Paginations</h2>
+
+    <p>Hovering over numbers changes the colour</p>
+
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#">1</a>
+      <a class="active" href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div>
+  </body>
+</html>
+
+
+
+
+Add positions to CSS block (static, relative, fixed, absolute and sticky).
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_effects003.css" />
+  </head>
+  <body>
+    <h2>Static</h2>
+    <!--this is for static element-->
+
+    <p>
+      An element with position: static; is not positioned in any special way; it
+      is always positioned according to the normal flow of the page:
+    </p>
+
+    <div class="static">This div element has position: static;</div>
+
+    <h2>Relative</h2>
+    <!--this is for relative element-->
+
+    <p>
+      An element with position: relative; is positioned relative to its normal
+      position:
+    </p>
+
+    <div class="relative">This div element has position: relative;</div>
+
+    <h2>Fixed</h2>
+    <!--this is for fixed element-->
+
+    <p>
+      An element with position: fixed; is positioned relative to the viewport,
+      which means it always stays in the same place even if the page is
+      scrolled:
+    </p>
+
+    <div class="fixed">Fixed</div>
+
+    <h2>Absolute;</h2>
+    <!--this is for absolute element-->
+
+    <p>
+      An element with position: absolute; is positioned relative to the nearest
+      positioned ancestor (instead of positioned relative to the viewport, like
+      fixed):
+    </p>
+
+    <div class="relative">
+      <!--this is relative element-->
+      This div element has position: relative;
+      <div class="absolute">This div element has position: absolute;</div>
+    </div>
+    <p>
+      Try to <b>scroll</b> inside this frame to understand how sticky
+      positioning works.
+    </p>
+
+    <div class="sticky">Sticky</div>
+    <!--this is for sticky element-->
+
+    <div style="padding-bottom: 2000px">
+      <p>
+        In this example, the sticky element sticks to the top of the page (top:
+        0), when you reach its scroll position.
+      </p>
+      <p>Scroll back up to remove the stickyness.</p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+    </div>
+  </body>
+</html>
+
+
+
+
+Handling Overflow using scroll.
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_effects004.css" />
+  </head>
+  <body>
+    <h1>Handling overflow property by using scroll</h1>
+
+    <div id="myDIV">
+      <div class="ex1">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat.
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+Adding Opacity to a image
+<html>
+  <head>
+    <link rel="stylesheet" href="jala_effects005.css" />
+  </head>
+  <body>
+    <h1>Adding Opacity to Images</h1>
+    <p>Hover over the image to make it less opaque</p>
+    <img
+      src="https://images.all-free-download.com/images/graphiclarge/cat_cat_face_cats_eyes_240527.jpg"
+      alt="cat1"
+      width="170"
+      height="100"
+    />
+    <img
+      src="https://developer.ridgerun.com/wiki/images/8/80/Egyptian_cat.jpg"
+      alt="cats2"
+      width="170"
+      height="100"
+    />
+    <img
+      src="https://cdn.pixabay.com/photo/2015/11/16/22/14/cat-1046544__340.jpg"
+      alt="cats3"
+      width="170"
+      height="100"
+    />
+  </body>
+</html>
